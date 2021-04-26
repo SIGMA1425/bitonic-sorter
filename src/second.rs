@@ -71,4 +71,10 @@ mod tests{
         let mut x = vec![20.0, -30.0, 11.0, 10.0];
         sort(&mut x, true);
     }
+
+    #[test]
+    fn sort_mix(){
+        let mut x = vec![10, 10.0, "a", "b"];
+        sort($mut x, true);
+    }
 }
